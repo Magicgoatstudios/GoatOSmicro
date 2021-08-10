@@ -77,7 +77,7 @@
 ## pressed the GUI is shown, where a user can set video modes, default emulators
 ## and other options (depending what is being launched).
 
-ROOTDIR="/opt/retropie"
+ROOTDIR="/opt/mgs"
 CONFIGDIR="$ROOTDIR/configs"
 LOG="/dev/shm/runcommand.log"
 
@@ -821,25 +821,7 @@ function choose_emulator() {
 
 function get_resolutions() {
     local res=(
-        "320x224"
-        "320x240"
-        "400x240"
-        "480x320"
-        "640x480"
-        "720x480"
-        "720x576"
-        "800x480"
-        "800x600"
-        "960x720"
-        "1024x600"
-        "1024x768"
-        "1024x800"
-        "1280x720"
-        "1280x800"
-        "1280x960"
-        "1280x1024"
-        "1360x768"
-        "1366x768"
+        "240x240"
         "1920x1080"
     )
     echo "${res[@]}"
