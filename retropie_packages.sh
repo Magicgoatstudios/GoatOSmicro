@@ -9,12 +9,12 @@
 # at https://raw.githubusercontent.com/RetroPie/RetroPie-Setup/master/LICENSE.md
 #
 
-__version="4.7.18"
+__version="1.0.0"
 
 [[ "$__debug" -eq 1 ]] && set -x
 
 # main retropie install location
-rootdir="/opt/retropie"
+rootdir="/opt/GOS"
 
 # if __user is set, try and install for that user, else use SUDO_USER
 if [[ -n "$__user" ]]; then
@@ -29,7 +29,7 @@ else
 fi
 
 home="$(eval echo ~$user)"
-datadir="$home/RetroPie"
+datadir="$home/gos"
 biosdir="$datadir/BIOS"
 romdir="$datadir/roms"
 emudir="$rootdir/emulators"
