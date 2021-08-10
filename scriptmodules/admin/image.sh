@@ -10,7 +10,7 @@
 #
 
 rp_module_id="image"
-rp_module_desc="Create/Manage RetroPie images"
+rp_module_desc="Create/Manage GoatOSµ images"
 rp_module_section=""
 rp_module_flags=""
 
